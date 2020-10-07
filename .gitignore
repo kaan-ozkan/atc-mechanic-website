@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 .users.yml
 localStart.bat
+jekyllServe.bat
