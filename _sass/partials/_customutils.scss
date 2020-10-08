@@ -1,0 +1,22 @@
+.c_vertical-line {
+  border-left: 1px solid;
+  border-left-color: rgb(230,230,230);
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.5px;
+}
+
+a.yer,
+a.yer:visited {
+  border-bottom: 0.05em solid $link-color-negative;
+	text-decoration: none;
+	color: $link-color-negative;
+}
+
+a.yer:hover,
+a.yer:active {
+  text-decoration: none;
+  border: 0;
+  color: $link-hover-color-negative;
+}
