@@ -7,6 +7,14 @@
   margin-left: -0.5px;
 }
 
+.c_vertical-line-header {
+  border-left: 1px solid;
+  border-left-color: rgb(230,230,230);
+  height: 5rem;
+  position: relative;
+  margin-left: -0.5px;
+}
+
 a.yer,
 a.yer:visited {
   border-bottom: 0.05em solid $link-color-negative;
@@ -19,4 +27,12 @@ a.yer:active {
   text-decoration: none;
   border: 0;
   color: $link-hover-color-negative;
+}
+.header {
+  display: inline-block
+}
+
+.logo_navbar {
+  height: 50px;
+  width: 200px;
 }
