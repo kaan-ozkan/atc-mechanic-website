@@ -16,6 +16,10 @@
   margin-left: -0.5px;
 }
 
+
+.list ul li{
+  list-style:disc;
+}
 a.yer,
 a.yer:visited {
   border-bottom: 0.05em solid $link-color-negative;
