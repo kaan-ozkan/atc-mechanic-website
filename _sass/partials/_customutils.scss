@@ -29,6 +29,30 @@ a.yer:active {
   border: 0;
   color: $link-hover-color-negative;
 }
+
+.body_contact {
+  color: $text-color-negative;
+  font-family: $base-font;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
+  font-style: normal;
+	font-variant: normal;
+  font-size: 1.2rem; // this is equivalent to 16px
+}
+
+.body_catalog_video {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns:
+    minmax(1rem, 1fr)
+    minmax(1rem, 1fr)
+    minmax(1rem, 1fr);
+
+  grid-column: full;
+  padding: 1rem 1rem;
+}
+
 .header {
   display: inline-block
 }

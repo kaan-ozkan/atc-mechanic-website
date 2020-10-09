@@ -10,7 +10,8 @@ intro_paragraph: |
 ---
 
 * Mekanik Tesisat Isıtma-Soğutma- Havalandırma taahhüt
-* Endüstriyel Soğutma sistemleri satış montaj ve servis (uyum Marketler zinciri 68 mağaza 4 yıl bakım ve servislik hizmeti)
+* Endüstriyel Soğutma sistemleri satış montaj ve servis<br>
+(uyum Marketler zinciri 68 mağaza 4 yıl bakım ve servislik hizmeti)
 * Samsung VRF sistemleri satış montaj ve servis
 * YORK VRF sistemleri satış montaj ve servis
 * Derin Deniz Deşarj ,Su Alma Boru Hatları ve Sahil Kumlama

@@ -7,4 +7,5 @@ intro_paragraph:
 ---
 ATC Mekanik LTD. sitesine hoşgeldiniz.
 
-Yukarıdaki linklerden kataloglara bakabilir, servis ve hizmetlerimizi öğrenebilir, referanslar kısmından çalışmalarımıza bakabilirsiniz.
+Yukarıdaki linklerden kataloglara bakabilir, servis ve hizmetlerimizi öğrenebilir, <br>
+referanslar kısmından çalışmalarımıza bakabilirsiniz.
