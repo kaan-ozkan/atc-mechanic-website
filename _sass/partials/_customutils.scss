@@ -1,12 +1,15 @@
 .c_vertical-line-footer {
   display: inline-block;
-  vertical-align: middle;
   border-left: 1px solid;
   border-left-color: rgb(230,230,230);
-  height: 80%;
+  height: 90%;
   position: relative;
   left: 50%;
   margin-left: -0.5px;
+}
+
+.h_right {
+  text-align: right;
 }
 
 .c_vertical-line-header {
