@@ -1,8 +1,9 @@
 .c_vertical-line-footer {
   display: inline-block;
+  vertical-align: middle;
   border-left: 1px solid;
   border-left-color: rgb(230,230,230);
-  height: 5rem;
+  height: 80%;
   position: relative;
   left: 50%;
   margin-left: -0.5px;

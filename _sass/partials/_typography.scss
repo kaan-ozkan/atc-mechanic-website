@@ -4,8 +4,11 @@
 
 html {
   font-size: $base-font-size;
+  @media screen and (max-width: $screen-xs-max) {
+    font-size: $base-font-size * 0.8;
+  }
   @media screen and (min-width: $screen-xs-min) {
-    font-size: $base-font-size * 1.2;
+    font-size: $base-font-size;
   }
   @media screen and (min-width: $screen-md-min) {
     font-size: $base-font-size * 1.4;
@@ -94,4 +97,8 @@ header > h1 {
   @media screen and (min-width: $screen-sm-min) {
     text-align: left;
   }
+}
+
+header > nav {
+  font-size: 1em; 
 }
