@@ -5,7 +5,9 @@ permalink: /
 section: home
 intro_paragraph:
 ---
-ATC Mekanik LTD. KKTC'de faaliyet gösteren, temel olarak **SAMSUNG** ve **YORK** marka VRF Klima sistemlerinin satış, montaj, servis ve bakımını gerçekleştiren mekanik, tesisat taahhüt firmasıdır.
 
-Sitemize hoşgeldiniz. Yukarıdaki linklerden kataloglara bakabilir, servis ve hizmetlerimizi öğrenebilir,
-referanslar kısmından çalışmalarımıza bakabilirsiniz ve sorularınız için İletişim kısmından bize ulaşabilirsiniz.
+Firmamız, Kuzey Kıbrıs Türk Cumhuriyeti'nde **SAMSMUNG VRF** sistemlerinin satış, montaj ve servis işlerini yıllardır uzman kadrolarıyla yapıp hizmet vermektedir.
+Ayrıca **YORK VRF** sistemlerinin satış, montaj ve servis hizmetlerinde de firmamız, KKTC bayisi olarak bir çok başarılı projede imza atmıştır ve atmaya devam etmektedir.
+
+Sitemize hoşgeldiniz. Yukarıdaki linklerden katalogları indirip inceleyebilir, servis ve taahhüt hizmetlerimizi, servis verdiğimiz markaları ve firma referanslarımızı inceleyebilirsiniz.
+Sorularınız ve detaylı iletişim bilgileri için İletişim kısmından bilgi alıp, bize ulaşabilirsiniz.
