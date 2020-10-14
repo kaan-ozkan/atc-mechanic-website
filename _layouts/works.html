@@ -10,7 +10,7 @@ layout: default
 
 <section>
 
-  <ul>
+  <ol>
     {% for category in site.categories %}
       {% capture category_name %}{{ category | first }}{% endcapture %}
       <h3>{{category_name | replace:"_"," "}}</h3>
@@ -23,6 +23,6 @@ layout: default
         </li>
       {% endfor %}
     {% endfor %}
-  </ul>
+  </ol>
 
 </section>
