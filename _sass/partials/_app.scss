@@ -30,7 +30,6 @@ header {
   max-width: 100vw;
   grid-column: full;
   display: grid;
-  align-items: center;
   vertical-align: middle;
   background-color: $brand-color;
   padding: 0.85rem;
@@ -79,6 +78,10 @@ header > div > img {
 
 header > div {
   display: inline-block;
+  margin: 0 auto;
+  @media screen and (min-width: $screen-lg-min) {
+    margin: 0 0;
+  }
   vertical-align: middle;
   white-space: nowrap;
 }
@@ -132,7 +135,10 @@ header > nav {
     align-content: middle;
     align-items: center;
     vertical-align: middle;
-    justify-content: right;
+    justify-content: center;
+    @media screen and (min-width: $screen-lg-min) {
+      justify-content: right;
+    }
     li {
       justify-content: center;
       display: flex;
