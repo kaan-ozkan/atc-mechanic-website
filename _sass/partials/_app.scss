@@ -29,6 +29,36 @@ body > * {
   padding: 1rem 1rem;
 }
 
+// our main content wrapper, the width scales with font size
+main {
+  width: 100%;
+  max-width: 52rem;
+  margin-right: auto;
+  margin-left: auto;
+  grid-column: main;
+  display: grid;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  grid-template-rows: min-content min-content min-content min-content min-content min-content;
+  @media screen and (min-width: $screen-md-min) {
+    align-content: start;
+  }
+  @media screen and (min-width: $screen-lg-min) {
+    align-content: start;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+// reset breaking fallbacks (e.g. widths) if CSS Grid is supported
+// float, inline-block, table properties are already ignored by CSS Grid
+@supports (display: grid) {
+  main {
+    width: auto;
+    max-width: none;
+  }
+}
+
 // header, the first grid row
 // it is also a grid for the logo and nav
 header {
@@ -186,35 +216,6 @@ header > nav {
         vertical-align: middle;
       }
     }
-  }
-}
-
-// our main content wrapper, the width scales with font size
-main {
-  width: 100%;
-  max-width: 52rem;
-  margin-right: auto;
-  margin-left: auto;
-  grid-column: main;
-  display: grid;
-  padding-top: 6rem;
-  padding-bottom: 4rem;
-  @media screen and (min-width: $screen-md-min) {
-    align-content: start;
-  }
-  @media screen and (min-width: $screen-lg-min) {
-    align-content: start;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-}
-
-// reset breaking fallbacks (e.g. widths) if CSS Grid is supported
-// float, inline-block, table properties are already ignored by CSS Grid
-@supports (display: grid) {
-  main {
-    width: auto;
-    max-width: none;
   }
 }
 
