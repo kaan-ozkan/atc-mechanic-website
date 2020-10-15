@@ -15,6 +15,12 @@ body {
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 6fr) [main-end]
     minmax(1rem, 1fr) [full-end];
+  @media screen and (min-width: $screen-lg-min) {
+    grid-template-columns:
+      [full-start] minmax(1rem, 1fr)
+      [main-start] minmax(0, 2fr) [main-end]
+      minmax(1rem, 1fr) [full-end];
+  }
 }
 
 // by default, make any new children of body to span the full track
