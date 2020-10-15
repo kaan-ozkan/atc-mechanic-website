@@ -2,6 +2,7 @@
 layout: home
 title: Anasayfa
 permalink: /
+meta-description: ATC Mekanik Ltd. olarak KKTC'de SAMSUNG ve YORK VRF Klimaları Satış Montaj ve Servis hizmetlerini ve fazlasını en kaliteli, en hızlı ve en uygun şekilde vermekteyiz.
 section: home
 intro_paragraph:
 ---

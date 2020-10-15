@@ -2,6 +2,7 @@
 layout: page
 title: Servis
 permalink: /service
+meta_description: ATC Mekanik Ltd. olarak servis hizmetlerimiz VRF(6 marka), split(7 marka) ve endüstriyel soğutma bakım, arıza, servis, yedek parça ve yıllık bakım, endüstriyel soğutma satışıdır.
 section: service
 intro_paragraph: >
 ---

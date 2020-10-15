@@ -2,6 +2,7 @@
 layout: contact
 title: İletişim
 permalink: /contact
+meta_description: ATC Mekanik Ltd. olarak bize ulaşabileceğiniz telefon numarası, e-mail adresi, ofis adresi ve ulaşım formu.
 section: contact
 intro_paragraph:
 ---

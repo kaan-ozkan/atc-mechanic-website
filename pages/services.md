@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Hizmetler ve Faaliyetler
-meta_description: |
-  This sets the meta description in the head of the page. You can watch the
-  output in the browser or in the generated file _site/about.html.
+meta_description: ATC Mekanik Ltd. olarak sağladığımız hizmetler SAMSUNG, YORK VRF satış, montaj, servis, ısıtma soğutma havalandırma taahhüt, derin deniz deşarj, su alma boru hatları, sahil kumlama, endüstriyel soğutma sistemleri
 permalink: /services
 section: services
-intro_paragraph: |
+intro_paragraph:
 ---
 
 <div class="list">

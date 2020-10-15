@@ -2,8 +2,9 @@
 layout: catalog
 title: Katalog
 permalink: /catalog
+meta_description: ATC Mekanik Ltd. olarak temel çalışma alanımız olan SAMSUNG ve YORK VRF Klima sistemlerinin detaylı katalogları.
 section: catalog
-intro_paragraph: >
+intro_paragraph:
 ---
 SAMSUNG ve YORK marka VRF klimaları aşağıdaki kataloglardan görüntüleyebilir, beğendiğiniz ürünler hakkında bilgi için bize ulaşabilirsiniz.
 
