@@ -13,7 +13,7 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 2fr) [main-end]
+    [main-start] minmax(0, 6fr) [main-end]
     minmax(1rem, 1fr) [full-end];
 }
 
@@ -123,6 +123,9 @@ header > nav {
   @media screen and (min-width: $screen-lg-min) {
     font-size: 1.8rem;
   }
+  @media screen and (max-width: $screen-xs-max) {
+    font-size: 1.4
+  }
   align-self: middle;
   align-content: middle;
   align-items: center;
@@ -188,10 +191,15 @@ main {
   margin-left: auto;
   grid-column: main;
   display: grid;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
+  }
+  @media screen and (min-width: $screen-lg-min) {
+    align-content: start;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 }
 
