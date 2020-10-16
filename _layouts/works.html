@@ -14,7 +14,7 @@ layout: default
 
     {% for category in site.categories reversed%}
       {% capture category_name %}{{ category | first }}{% endcapture %}
-      <h3>{{category_name | replace:"_"," "}} <button class="hideshow" onclick="flipView('{{category_name}}', this);" ></button></h3>
+      <div class="hideshowdiv"><h3>{{category_name | replace:"_"," "}}</h3>  <button class="hideshow" onclick="flipView('{{category_name}}', this);" ></button></div>
       {% assign author = site.data.authors[post.author] %}
       <ol id="works-{{category_name}}"" style = "display: none;">
       {% for post in site.categories[category_name] reversed %}

@@ -74,6 +74,15 @@ a.yer:active {
   padding: 1rem 1rem;
 }
 
+.hideshowdiv {
+  display:grid;
+  align-items: flex-start;
+  grid-template-columns:
+  min-content min-content;
+  white-space: nowrap;
+  grid-column-gap: 0.5rem;
+}
+
 .header {
   display: inline-block
 }

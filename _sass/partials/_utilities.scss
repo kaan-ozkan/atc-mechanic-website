@@ -95,8 +95,19 @@ button.hideshow {
 	//@include button($link-color, $text-color-negative);
 	background-image: url("img/plus.png");
 	background-color: rgba(0,0,0,0);
-	vertical-align: super;
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
+	vertical-align:middle;
+	display: inline;
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+	@media screen and (min-width: $screen-xs-min) {
+		background-size: 24px 24px;
+		width: 24px;
+		height: 24px;
+  }
+	@media screen and (min-width: $screen-lg-min) {
+		background-size: 32px 32px;
+		width: 32px;
+		height: 32px;
+  }
 }
