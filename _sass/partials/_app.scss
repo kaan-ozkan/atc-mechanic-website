@@ -6,21 +6,18 @@
 // necessary. https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks
 
 // the body element is our primary layout grid
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
 body {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 6fr) [main-end]
-    minmax(1rem, 1fr) [full-end];
-  @media screen and (min-width: $screen-lg-min) {
-    grid-template-columns:
-      [full-start] minmax(1rem, 1fr)
-      [main-start] minmax(0, 2fr) [main-end]
-      minmax(1rem, 1fr) [full-end];
-  }
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   display: block;
+   overflow: overlay;
 }
 
 // by default, make any new children of body to span the full track
@@ -31,7 +28,7 @@ body > * {
 
 // our main content wrapper, the width scales with font size
 main {
-  width: 100%;
+  width: 60%;
   max-width: 52rem;
   margin-right: auto;
   margin-left: auto;
@@ -46,24 +43,19 @@ main {
   @media screen and (min-width: $screen-lg-min) {
     align-content: start;
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 12rem;
   }
 }
 
 // reset breaking fallbacks (e.g. widths) if CSS Grid is supported
 // float, inline-block, table properties are already ignored by CSS Grid
-@supports (display: grid) {
-  main {
-    width: auto;
-    max-width: none;
-  }
-}
+
 
 // header, the first grid row
 // it is also a grid for the logo and nav
 header {
-  width: 100vw;
-  max-width: 100vw;
+  width: 100%;
+  max-width: 100%;
   grid-column: full;
   display: grid;
   vertical-align: middle;
@@ -232,7 +224,7 @@ html[data-current="blog"] main > section {
 
 // adjacent blog posts links
 nav[aria-label="Adjacent Posts"] {
-  padding: 4rem 0;
+  padding: 2rem 0;
   ul {
     display: flex;
     li {
@@ -275,6 +267,9 @@ html[data-current="contact"] main > form {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   grid-column: full;
   display: grid;
   align-items: center;

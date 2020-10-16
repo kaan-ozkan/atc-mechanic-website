@@ -91,6 +91,12 @@ textarea {
 	max-width: 100%;
 }
 
-button {
-	@include button($link-color, $text-color-negative);
+button.hideshow {
+	//@include button($link-color, $text-color-negative);
+	background-image: url("img/plus.png");
+	background-color: rgba(0,0,0,0);
+	vertical-align: super;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
 }

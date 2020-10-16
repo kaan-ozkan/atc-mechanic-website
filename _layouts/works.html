@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<script src="assets/js/hideshow.js" type="text/javascript"></script>
+
 <h2>{{ page.title }}</h2>
 
 {% include page-intro.html %}
@@ -10,19 +12,18 @@ layout: default
 
 <section>
 
-  <ol>
-    {% for category in site.categories %}
+    {% for category in site.categories reversed%}
       {% capture category_name %}{{ category | first }}{% endcapture %}
-      <h3>{{category_name | replace:"_"," "}}</h3>
+      <h3>{{category_name | replace:"_"," "}} <button class="hideshow" onclick="flipView('{{category_name}}', this);" ></button></h3>
       {% assign author = site.data.authors[post.author] %}
-      {% for post in site.categories[category_name] %}
-
+      <ol id="works-{{category_name}}"" style = "display: none;">
+      {% for post in site.categories[category_name] reversed %}
         <li>
           <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-          {{ post.excerpt | strip_newlines | truncate: 180 }}
+          {{ post.excerpt | strip_newlines | truncate: 120 | font_modify: 'weight', 'normal'}}
         </li>
       {% endfor %}
+      </ol>
     {% endfor %}
-  </ol>
 
 </section>
