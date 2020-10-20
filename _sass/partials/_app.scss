@@ -103,6 +103,20 @@ header > div > img {
     width: 100px;
   }
 }
+.yorkLogo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  @media screen and (min-width: $screen-xs-min) {
+    width: 40px;
+  }
+  @media screen and (min-width: $screen-md-min) {
+    width: 48px;
+  }
+  @media screen and (min-width: $screen-lg-min) {
+    width: 55px;
+  }
+}
 
 header > div {
   display: inline-block;
