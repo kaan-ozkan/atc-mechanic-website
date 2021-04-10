@@ -8,6 +8,6 @@ intro_paragraph:
 ---
 Tel: 05338379867  
 E-Mail: [atcmekanikltd@gmail.com](mailto:atcmekanikltd@gmail.com) <br>
-Ofis: Bedrettin Demirel Caddesi No:23 Özyalçın 156 Kat 1 Daire 1 Girne/KKTC
+Ofis: Karaoğlanoğlu Cad. Oransel Plaza No:1 Girne / KKTC
 
 **Bize ulaşın:**
